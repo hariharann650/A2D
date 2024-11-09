@@ -144,14 +144,14 @@ input[type=radio]:hover{
 }
 @media screen and (max-width: 550px) {
   .mainform {
-    margin: 65% 0 7% 0;
+    /* margin: 65% 0 7% 0;   */
     width: 95vw;
     padding: 5vw;
     display: flex;
     justify-content: start;
     background-color: whitesmoke;
     position: absolute;
-    top: 100%;
+    top: 180vh;
   }
   .btn2{
     display: flex;
@@ -169,6 +169,6 @@ input[type=radio]:hover{
   }
   .mainform-parent {
     width:100%;
-    height:260vh;
+    height:420vh;
   }
 }
