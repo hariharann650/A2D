@@ -1,7 +1,5 @@
 import React from "react";
 import "./Build.css";
-import graphics from "../assets/graphics card.jpg";
-import heart from "../assets/heart-icon.svg";
 import topanimation from "../assets/sich.png";
 import bottomanimation from "../assets/3.png";
 import customersupport from "../assets/customer support.jpg";

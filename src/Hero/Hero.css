@@ -24,6 +24,10 @@ body {
   margin:0;
   width:100vw;
   height:100vh; 
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-image: url('../assets/background.jpg');
   animation: hero 4s ease-in-out forwards;
   animation-timeline: view();
   animation-range:exit;
