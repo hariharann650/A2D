@@ -16,12 +16,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin:0px !important;
 }
 .contact-title{
-  position: relative;
+  /* position: relative; */
   color:white;
   /* width:100%; */
 }
 .contact-title h1{
-  padding:0px 30px;
+  /* padding:0px 30px; */
   white-space:nowrap;
   font-size: 80px;
   font-weight: 600;
@@ -139,7 +139,7 @@ background-size: cover;
   }
   .contact-title h1{
     /* padding:0px 30px; */
-    font-size: 32px;
+    font-size: 30px;
     white-space:nowrap;
     font-weight: 600;
   }
@@ -151,7 +151,7 @@ background-size: cover;
     flex-direction: column;
   }
   .contact-left h1{
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
   }
   .contact-left p{

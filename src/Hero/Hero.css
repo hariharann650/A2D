@@ -121,6 +121,8 @@ body {
 .animation {
   /* overflow: hidden; */
   display: flex;
+  padding:0px;
+  margin:0px;
   bottom:0;
   animation: cpu 25s ease-in-out forwards;
   animation-iteration-count: infinite;
@@ -148,23 +150,26 @@ body {
   gap:20px;
 }
 .content h1{
-  font-size: 40px;
+  font-size: 32px;
 }
 .content p{
-  font-size: 19px;
+  font-size: 16px;
   line-height: 23px;
 }
 .content button{
   width:170px;
 }
 .animation img{
-  width:330px;
+  width:300px;
 }
 .content button{
   /* width:50px; */
   font-size: 19px;
 
   padding:10px 20px;
+}
+.main_hero{
+  overflow: hidden;
 }
 }
 
