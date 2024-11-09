@@ -25,6 +25,7 @@ const Hero = () => {
         playsInline
         preload="metadata"
         className="back-video"
+        fetchpriority="high"
         id="responsiveVideo"
       >
         <source
