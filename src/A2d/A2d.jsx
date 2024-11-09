@@ -10,7 +10,7 @@ import ram from '../assets/images/ram.jpeg';
 import rom from '../assets/images/rom.jpeg';
 import rom2 from '../assets/images/rom1.jpeg';
 import diff from '../assets/images/rom1.jpeg';
-import robot from '../assets/images/robot.png';
+// import robot from '../assets/images/robot.png';
 const A2d = () => {
   return (
     <div className="banner">
@@ -56,7 +56,7 @@ const A2d = () => {
           <p className="buildpc">Build Your Dream PC's With Us</p>
         </div>
         <div className="model">
-          <img src={robot} alt="" />
+          
         </div>
       </div>
     </div>
