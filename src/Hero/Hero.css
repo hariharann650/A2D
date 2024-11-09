@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prociono&family=Roboto+Slab:wght@100..900&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Bona Nova SC", serif;
+}
+.back-video {
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right:0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.main_hero {
+  /* overflow: hidden; */
+  position: relative;
+  padding:0;
+  margin:0;
+  width:100vw;
+  height:100vh; 
+  animation: hero 4s ease-in-out forwards;
+  animation-timeline: view();
+  animation-range:exit;
+}
+.ab{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.main-content{
+  display: flex;
+  flex-direction: row;
+}
+@keyframes hero {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0.9;
+    transform: scale(1.4);
+  }
+  60% {
+    opacity: 0.5;
+    transform: scale(2);
+  }
+  80% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+.logo{
+  text-align: center;
+}
+.content {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding:2vw;
+  /* overflow: hidden; */
+  gap:1.5vw;
+}
+.content h1{
+  font-size: 4vw;
+  -webkit-text-stroke: 1px;
+  background: linear-gradient(397deg, hsl(157,75%,62%),hsl(217,75%,62%),hsl(277,75%,62%),hsl(37,75%,62%),hsl(37,75%,62%),hsl(97,75%,62%));
+  background-clip: text;
+  margin:0;
+  padding:0;
+  color:transparent;
+  text-align: center;
+}
+.content p{
+  font-size: 2vw;
+  font-family: 'outfit';
+  color:white;
+  line-height:2.5vw;
+  text-align: center;
+  margin:0;
+}
+.content span{
+  color:hsl(39, 78%, 72%);
+}
+.content button{
+  margin-left:17vw;
+  width:18vw;
+  text-align: center;
+  white-space: nowrap;
+  padding:1vw 1.3vw;
+  border:none;
+  color:white;
+  font-size: 2vw;
+  background-image: linear-gradient(183deg, rgba(213, 213, 213,0.06) 0%, rgba(213, 213, 213,0.06) 50%,rgba(130, 130, 130,0.06) 50%, rgba(130, 130, 130,0.06) 100%),linear-gradient(50deg, rgba(13, 13, 13,0.06) 0%, rgba(13, 13, 13,0.06) 50%,rgba(135, 135, 135,0.06) 50%, rgba(135, 135, 135,0.06) 100%),linear-gradient(348deg, rgba(179, 179, 179,0.06) 0%, rgba(179, 179, 179,0.06) 50%,rgba(254, 254, 254,0.06) 50%, rgba(254, 254, 254,0.06) 100%),linear-gradient(16deg, rgba(76, 76, 76,0.06) 0%, rgba(76, 76, 76,0.06) 50%,rgba(253, 253, 253,0.06) 50%, rgba(253, 253, 253,0.06) 100%),linear-gradient(98deg, rgba(48, 48, 48,0.06) 0%, rgba(48, 48, 48,0.06) 50%,rgba(67, 67, 67,0.06) 50%, rgba(67, 67, 67,0.06) 100%),linear-gradient(10deg, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(118, 118, 118,0.06) 50%, rgba(118, 118, 118,0.06) 100%),linear-gradient(27deg, rgba(31, 31, 31,0.06) 0%, rgba(31, 31, 31,0.06) 50%,rgba(254, 254, 254,0.06) 50%, rgba(254, 254, 254,0.06) 100%),linear-gradient(54deg, rgba(34, 34, 34,0.06) 0%, rgba(34, 34, 34,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 100%),radial-gradient(circle at center center, rgb(214, 67, 194),rgb(218, 72, 172));
+  border-radius: 10px;
+  font-family: 'outfit';
+  transition: 0.3s ease-in-out;
+}
+.content button:hover{
+  cursor: pointer;
+  opacity:0.9;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.animation {
+  /* overflow: hidden; */
+  display: flex;
+  bottom:0;
+  animation: cpu 25s ease-in-out forwards;
+  animation-iteration-count: infinite;
+  animation-timeline: view(display);
+}
+.animation img{
+  width:40vw;
+}
+@keyframes cpu {
+  0%{
+    right:0%;
+  }
+  50%{
+    right:5%;
+  }
+  100%{
+    right:0%;
+  }
+}
+@media screen and (max-width:550px) {
+.main-content{
+  flex-direction: column;
+}
+.content{
+  gap:20px;
+}
+.content h1{
+  font-size: 40px;
+}
+.content p{
+  font-size: 19px;
+  line-height: 23px;
+}
+.content button{
+  width:170px;
+}
+.animation img{
+  width:330px;
+}
+.content button{
+  /* width:50px; */
+  font-size: 19px;
+
+  padding:10px 20px;
+}
+}
+

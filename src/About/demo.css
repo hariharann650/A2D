@@ -1,0 +1,46 @@
+/* Center the main content */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+.spline-container {
+/* Spline container for the 3D animation */
+position: absolute;
+width: 39vw;
+/* bottom:5; */
+right:10%;
+/* bottom:50%; */
+height: 70vh;
+  /* border: 1px solid #ccc; */
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  .spline-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden; /* Adjust for tablets */
+  }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 480px) {
+  .spline-container {
+    width: 45vw;
+    height: 50vh;
+    bottom:100;
+    overflow: hidden;
+    
+  }
+  canvas{
+    /* height:200px; */
+  }
+}

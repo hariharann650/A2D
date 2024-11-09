@@ -1,0 +1,135 @@
+/* .build-container {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  margin: 10px;
+  flex-direction: row;
+}
+.build-particular {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  animation: slide 5s linear infinite;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-container:hover .marquee{
+  animation-play-state: paused !important;
+}
+
+.build-particular:hover {
+  background-color: antiquewhite; 
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15), 0px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.build-img {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 20vw;
+  height: auto;
+}
+
+.usertitle{
+  font-size: 5vw;
+  text-align: center;
+  margin: 7vw 0;
+  font-family: "Libre Baskerville", sans-serif;
+} */
+
+
+.usertitle{
+  font-size: 5vw;
+  text-align: center;
+  margin: 7vw 0 0 0;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+.marquee-container {
+  margin:2vw 0 5vw 0;
+  white-space: nowrap;
+  position: relative;
+  overflow-x:hidden;
+  padding:5vw;
+  mask-image:linear-gradient(to right,transparent, #000 10% 90%,transparent);
+}
+
+.build-container {
+  width:100%;
+  display: inline-flex;
+  gap: 15px;
+  animation: scroll 25s linear infinite;
+  /* overflow: hidden; */
+
+}
+.usersub{
+  margin-top:10px;
+  color:hsl(195, 12%, 20%);
+  font-size: 16px;
+  text-align: center;
+}
+
+.build-container:hover {
+  animation-play-state: paused;
+}
+
+.build-particular {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.build-particular:hover {
+  transform: scale(1.1);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15), 0px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.build-img {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 20vw;
+  height: auto;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+
+  }
+}
+
+@media (max-width: 480px) {
+  .usertitle {
+    font-size: 10vw;
+    margin: 4vw 0;
+  }
+
+  .build-container {
+    gap: 8px;
+    animation-duration: 20s;
+  }
+
+  .build-particular {
+    padding: 6px;
+  }
+
+  .build-img {
+    width: 50vw; 
+  }
+}
