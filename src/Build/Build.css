@@ -126,6 +126,9 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .build{
+    /* margin-top:10px; */
+  }
   .build-text{
     font-size: 34px;
   }
@@ -166,5 +169,22 @@ body {
   .picture2 img,
   .picture3 img {
     width:80vw;
+  }
+  .topani {
+    left: 5%;
+    position: absolute;
+    width: 85vw;
+  }
+  .sliding {
+    /* width:200px; */
+    height: 42vw;
+  }
+  .bottomani {
+    left: 25%;
+    position: absolute;
+    width: 50vw;
+    animation: rotating forwards;
+    animation-timeline: view();
+    /* animation-timing-function: view(); */
   }
 }

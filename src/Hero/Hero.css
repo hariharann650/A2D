@@ -32,7 +32,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 .main-content{
   display: flex;
@@ -147,6 +146,7 @@ body {
   flex-direction: column;
 }
 .content{
+  margin-top:25px;
   gap:20px;
 }
 .content h1{
@@ -165,8 +165,9 @@ body {
 .content button{
   /* width:50px; */
   font-size: 19px;
-
+  align-items: center;
   padding:10px 20px;
+  margin-left:20vw;
 }
 .main_hero{
   overflow: hidden;
