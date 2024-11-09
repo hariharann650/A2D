@@ -176,7 +176,6 @@ body {
     width: 85vw;
   }
   .sliding {
-    /* width:200px; */
     height: 42vw;
   }
   .bottomani {
@@ -185,6 +184,6 @@ body {
     width: 50vw;
     animation: rotating forwards;
     animation-timeline: view();
-    /* animation-timing-function: view(); */
+
   }
 }
