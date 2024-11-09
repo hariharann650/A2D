@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .about {
   display: flex;
   flex-direction: row;

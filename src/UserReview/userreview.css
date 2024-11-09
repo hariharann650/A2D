@@ -46,7 +46,9 @@
   font-family: "Libre Baskerville", sans-serif;
 } */
 
-
+body{
+  overflow-x: hidden;
+}
 .usertitle{
   font-size: 5vw;
   text-align: center;

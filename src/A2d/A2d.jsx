@@ -56,7 +56,7 @@ const A2d = () => {
           <p className="buildpc">Build Your Dream PC's With Us</p>
         </div>
         <div className="model">
-          
+          {/* <img src={robot} alt="" /> */}
         </div>
       </div>
     </div>

@@ -1,4 +1,8 @@
-/* Center the main content */
+/* Center the main content 
+*/
+body{
+  overflow-x:hidden ;
+}
 .main {
   display: flex;
   justify-content: center;
