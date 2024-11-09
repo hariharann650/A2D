@@ -26,7 +26,7 @@ import Form from './Form/Form';
 
 function App() {
   return (
-    <Router basename="A2D">  {/* Replace 'your-repo-name' with your actual GitHub repository name */}
+    <Router basename="/A2D">  {/* Replace 'your-repo-name' with your actual GitHub repository name */}
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/form" element={<Form />} /> {/* Standardize route naming */}
