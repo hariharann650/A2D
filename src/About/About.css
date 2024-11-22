@@ -136,7 +136,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .contact{
     gap:50px;
     margin:10px 20px;
-    align-items: start;
+    align-items: center;
   }
   .contact-title h1{
     /* padding:0px 30px; */
