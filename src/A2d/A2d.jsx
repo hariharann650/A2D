@@ -46,7 +46,7 @@ const A2d = () => {
           <img src={diff} alt="nothingjustimage" />
         </div>
       </div>
-      <div className="content">
+      <div className="content2">
         <h1 data-content="A2D PC Factory">A2D PC Factory</h1>
         <div className="author">
           {/* <h2>PC DOC</h2> */}

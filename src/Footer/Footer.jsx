@@ -108,7 +108,7 @@ const Footer = () => {
       <ul>Experience On</ul>
       <img src={playstore} alt=""></img>
       <img src={applestore} alt=""></img>
-  <Home/>
+  {/* <Home/> */}
     </div>
     </div>
     <div className="last-line">

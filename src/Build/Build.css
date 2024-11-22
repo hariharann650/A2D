@@ -22,6 +22,7 @@ body {
   animation:autoshow both;
   animation-timeline: view(70% 5%);
 }
+
 @keyframes autoshow {
   from{
     opacity: 0;
@@ -31,7 +32,6 @@ body {
     opacity:1;
     transform: translateY(0px) scale(1);
   }
-  
 }
 .build-sub-text {
   color: hsl(60, 4%, 43%);
@@ -68,7 +68,7 @@ body {
   }
 }
 
-.main-content {
+.main-content2 {
   display: inline-flex;
   flex-direction: row;
   padding: 20px;
@@ -120,7 +120,7 @@ body {
   text-align: center;
 }
 @media screen and (max-width: 550px) {
-  .main-content {
+  .main-content2 {
     padding: 0px;
     flex-direction: column;
     flex-wrap: wrap;

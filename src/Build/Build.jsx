@@ -19,7 +19,7 @@ const Build = () => {
       <div className="Build">
         <h2 className="build-text autoshowing">Why Choose Us</h2>
         <p className="build-sub-text">Explore our Support's</p>
-        <div className="main-content">
+        <div className="main-content2">
           <div className="picture">
             <h2 className="picture-title autoshowing">Exceptional Customer Support</h2>
             <img className="autoshowing" src={customersupport} alt="" />
@@ -39,7 +39,7 @@ const Build = () => {
             </p>
           </div>
         </div>
-        <div className="main-content">
+        <div className="main-content2">
           <div className="build-content2 autoshowing">
             <p>
               Enjoy fast and free delivery across India! We ensure that your
@@ -59,7 +59,7 @@ const Build = () => {
           </div>
         </div>
 
-        <div className="main-content">
+        <div className="main-content2">
           <div className="picture3">
             <h2 className="picture-title autoshowing">Expert Technical Consulting</h2>
             <img className="autoshowing" src={technical} alt="" />
@@ -82,7 +82,7 @@ const Build = () => {
           </div>
         </div>
 
-        <div className="main-content">
+        <div className="main-content2">
           <div className="build-content2 autoshowing">
             <p>
               We prioritize the safe delivery of your PC with highly secure

@@ -61,6 +61,7 @@ body{
   white-space: nowrap;
   position: relative;
   overflow-x:hidden;
+  scrollbar-width: none;
   padding:5vw;
   mask-image:linear-gradient(to right,transparent, #000 10% 90%,transparent);
 }
@@ -80,7 +81,7 @@ body{
   text-align: center;
 }
 
-.build-container:hover {
+.build-container:hover {  
   animation-play-state: paused;
 }
 
@@ -112,7 +113,6 @@ body{
   }
   to {
     transform: translateX(-100%);
-
   }
 }
 

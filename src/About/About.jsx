@@ -14,7 +14,7 @@ const About = () => {
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
+        "Content-Type": "application/json", 
         Accept: "application/json",
       },
       body: json,
@@ -42,7 +42,7 @@ const About = () => {
                 height="450px"
                 style={{ border: 0 }}
                 allowFullScreen
-                className="autoshowing"
+                // className="autoshowing"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"/>
           </div>
