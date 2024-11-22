@@ -28,6 +28,7 @@ body {
   background-position: center;
   overflow: hidden;
   background-image: url('../assets/background.jpg');
+  -webkit-animation: hero 4s ease-in-out forwards;
   animation: hero 4s ease-in-out forwards;
   animation-timeline: view();
   animation-range:exit;
@@ -128,14 +129,14 @@ body {
   padding:0px;
   margin:0px;
   bottom:0;
-  animation: cpu 25s ease-in-out forwards;
+  /* animation: cpu 25s ease-in-out forwards;
   animation-iteration-count: infinite;
-  animation-timeline: view(display);
+  animation-timeline: view(display); */
 }
 .animation img{
   width:40vw;
 }
-@keyframes cpu {
+/* @keyframes cpu {
   0%{
     right:0%;
   }
@@ -145,7 +146,7 @@ body {
   100%{
     right:0%;
   }
-}
+} */
 @media screen and (max-width:550px) {
 .main-content{
   flex-direction: column;

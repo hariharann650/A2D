@@ -19,6 +19,7 @@ body {
 
 }
 .autoshowing{
+  -webkit-animation:autoshow both;
   animation:autoshow both;
   animation-timeline: view(70% 5%);
 }
@@ -55,6 +56,7 @@ body {
   left: 33%;
   position: absolute;
   width: 33vw;
+  -webkit-animation: rotating forwards;
   animation: rotating forwards;
   animation-timeline: view();
   /* animation-timing-function: view(); */
@@ -178,6 +180,7 @@ body {
     left: 25%;
     position: absolute;
     width: 50vw;
+    -webkit-animation: rotating forwards;
     animation: rotating forwards;
     animation-timeline: view();
 
