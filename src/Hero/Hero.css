@@ -149,7 +149,7 @@ body {
 @media screen and (max-width:550px) {
 .main-content{
   flex-direction: column;
-  gap:10vh;
+  gap:3vh;
 }
 .content{
   margin-top:30px !important;
